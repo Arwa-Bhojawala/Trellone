@@ -17,30 +17,26 @@ A Trello Clone - Built with React, Redux, Express, and MongoDB.
 ## Installing
 1. Clone the repository
 ```
-git clone https://github.com/ayushagg31/Trellis.git
+git clone https://github.com/Arwa-Bhojawala/Trellone.git
 cd Trellone
 ```
 2. Install dependencies
 ```
 npm i && cd client && npm i
 ```
-3. Create .env file 
+3. Create .env file (Pushed to github for the time being.)
 ```
 REACT_APP_CLIENT_KEY="YOUR API KEY" // Unsplash API Key
 ```
-4. Create dev.env for **development** and **test.env** for testing purpose  
+4. Create dev.env for **development** and **test.env** for testing purpose (Pushed dev.env to github for the time being.)
 ```
 cd ../config
 (
 echo PORT=1313
 echo DATABASE_URL="MongoDB Connection String"
-echo JWT_SECRET="YOUR JWT TOKEN"
+echo JWT_SECRET="YOUR JWT TOKEN (Can be any string)"
 echo NODE_ENV=development
 ) > dev.env
-```
-5. Go into ```client/package.json``` and replace **proxy** with your server port 
-```
-"proxy": "http://localhost:1313"
 ```
 6. Run the project
 ```

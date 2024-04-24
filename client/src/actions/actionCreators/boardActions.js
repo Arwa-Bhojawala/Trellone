@@ -1,7 +1,7 @@
 import axios from 'axios'
 import * as ACTIONS from '../actions'
 
-const BASE_URL = 'http://ec2-13-60-40-94.eu-north-1.compute.amazonaws.com:1313/api/boards/'
+const BASE_URL = 'http://localhost:1313/api/boards/'
 
 export const fetchAllBoards = (token) => (dispatch) => {
   dispatch({ type: ACTIONS.MAKE_REQUEST_BOARD })

@@ -1,7 +1,7 @@
 import axios from 'axios'
 import * as ACTIONS from '../actions'
 
-const BASE_URL = 'http://ec2-13-60-40-94.eu-north-1.compute.amazonaws.com:1313/api/activities/'
+const BASE_URL = 'http://localhost:1313/api/activities/'
 
 export const createNewActivity = (params, token) => (dispatch) => {
   axios
